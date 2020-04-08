@@ -17,6 +17,12 @@ public class HocSinh extends CaNhan {
     this.nangKhieu = nangKhieu;
   }
 
+  // getter, setter
+  public void setLop(String lop) { this.lop = lop; }
+  public void setNangKhieu(String nangKhieu) { this.nangKhieu = nangKhieu; }
+  public String getLop() { return this.lop; }
+  public String getNangKhieu() { return this.nangKhieu; }
+
   // methods
   // hien thi thong tin
   @Override

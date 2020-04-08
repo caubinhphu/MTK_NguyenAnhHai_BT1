@@ -8,6 +8,12 @@ public class LopHoc {
   IQLDS qlDsGVGD = new QLDS();
   IQLDS qlDsHS = new QLDS();
 
+  // conrtructor
+  // contructor LopHoc voi giao vien chu nhiem truyen vao
+  public LopHoc(GiaoVien gvChuNhiem) {
+    this.giaoVienCN = gvChuNhiem;
+  }
+
   // methods
   // them hoc sinh
   public int themHocSinh(HocSinh hs) {

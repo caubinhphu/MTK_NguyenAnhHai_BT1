@@ -17,6 +17,12 @@ public class GiaoVien extends CaNhan {
       this.toBoMon = toBoMon;
     }
   
+    // getter, setter
+    public void setMonDay(String monDay) { this.monDay = monDay; }
+    public void setToBoMon(String toBoMon) { this.toBoMon = toBoMon; }
+    public String getMonDay() { return this.monDay; }
+    public String getToBoMon() { return this.toBoMon; }
+
     // methods
     // hien thi thong tin
     @Override
